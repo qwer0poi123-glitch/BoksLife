@@ -1,9 +1,0 @@
-services:
-  - type: worker
-    name: boxing-life-bot
-    env: python
-    region: frankfurt
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
-    autoDeploy: true
